@@ -14,7 +14,7 @@ por año según empresa desarrolladora.
 
 async def funcion1(desarrollador:str):
     
-    df_desarrollador = pd.read_parquet(r"C:\Users\argui\OneDrive\Escritorio\ProyectoML_OPS\data\steam_games.parquet")
+    df_desarrollador = pd.read_parquet("data/steam_games.parquet")
               # Filtrar el DataFrame por desarrollador
     df_desarrollador = df_desarrollador[df_desarrollador['developer'] == desarrollador].copy()
 
@@ -47,7 +47,7 @@ async def funcion1(desarrollador:str):
 
 @app.get('/Recomendacion_juego/{id_juego}')  
 async def recomendacion_juego(id_juego:int):
-    df = pd.read_parquet(r"C:\Users\argui\OneDrive\Escritorio\ProyectoML_OPS\data\recomendacion.parquet")
+    df = pd.read_parquet("data/recomendacion.parquet")
 
     # Verifica si existe el id.
     if id_juego not in df['item_id'].values:
