@@ -46,4 +46,10 @@ Para el desarrollo de la Api se utilizó FastAPI, este Framework permite que la 
 
 # Deployment
 
-* Para el deploy de la API se seleccionó la plataforma Render, a continuacion el link donde se puede ver el funcionamiento de la API desplegado 
+* Para el deploy de la API se seleccionó la plataforma Render, a continuacion el link donde se puede ver el funcionamiento de la API desplegado
+
+# Video 
+
+## Finalmente se realizó el video explicando los endpoint desarrollados, espero sea de su agrado, a continuación el link del video
+#  https://youtu.be/FgO2M-EWuVk 
+Muchas gracias por ver
