@@ -51,5 +51,5 @@ Para el desarrollo de la Api se utilizó FastAPI, este Framework permite que la 
 # Video 
 
 ## Finalmente se realizó el video explicando los endpoint desarrollados, espero sea de su agrado, a continuación el link del video
-#  https://youtu.be/FgO2M-EWuVk 
+#  https://youtu.be/qmGbEodjn18
 Muchas gracias por ver
